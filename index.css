@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin-left: 60px;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 11pt;
+  border: 1px solid #cccccc;
+  margin-left: 60px;
+}
+
+td {
+  padding: 7px;
+  height: 26px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+th {
+  background-color: #000000;
+  color: white;
+  height: 30px;
+}
+
+tr:nth-child(even) {
+  background-color: #dcdde1;
+}
+
+.btn-tambah {
+  border: 1px solid #000000;
+  background: #fffbfb url("img/tambah.png") no-repeat -10px -6px;
+  height: 25px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+
+.btn-hapus   {
+  border: 1px solid #e84118;
+  background: #fd3232 url("img/delete.png") no-repeat 5px 4px;
+  height: 25px;
+  padding-left: 15px;
+  padding-top: 5px;
+  
+}
+
+.btn-ubah {
+  border: 1px solid #000000;
+  background: #000000 url("img/update.png") no-repeat 5px 4px;
+  height: 25px;
+  padding-left: 15px;
+  padding-top: 5px;
+}
